@@ -4,10 +4,15 @@ import './headerStyles.css';
 
 const Header = () => {
   return (
-    <div>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="movies">Movies</NavLink>
+    <div className="header container">
+      <NavLink to="/" className="link">
+        Home
+      </NavLink>
+      <NavLink to="movies" className="link">
+        Movies
+      </NavLink>
     </div>
   );
 };
+
 export default Header;

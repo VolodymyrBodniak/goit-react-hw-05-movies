@@ -3,6 +3,7 @@
   margin: 10px auto 0 auto;
   padding: 20px;
   width: 1150px;
+  border-radius: 5px;
 }
 
 .movie_info_list {
