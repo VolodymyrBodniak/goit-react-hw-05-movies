@@ -1,0 +1,14 @@
+.search_form {
+  padding: 30px 10px;
+}
+
+.search_form input {
+  width: 200px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.search_form button {
+  padding: 5px;
+  font-size: 20px;
+}

@@ -3,10 +3,8 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Trending today</h2>
-
-      <TrendingList></TrendingList>
+    <div className="container">
+      <TrendingList />
     </div>
   );
 };
